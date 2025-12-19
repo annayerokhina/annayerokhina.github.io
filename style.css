@@ -417,7 +417,7 @@ body {
     font-size: 15px;
   }
   .btn {
-    font-size: 12px;
+    font-size: 14px;
     margin: auto;
   }
   .hero > img {
@@ -1245,7 +1245,7 @@ footer a {
   }
   .exp-card p,
   .exp-card li {
-    font-size: 16px;
+    font-size: 17px;
   }
   .experience h3 {
     margin-top: 0;
@@ -1264,7 +1264,7 @@ footer a {
   }
   .client-card .text p {
     font-size: 18px;
-    padding: 0 15px;
+    padding: 0;
   }
   .client-card {
     flex-direction: column;
@@ -1484,5 +1484,32 @@ footer a {
   .contact-steps {
     margin: 20px auto 30px;
     max-width: 275px;
+  }
+  .experience .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .clients-games {
+    flex-direction: column;
+  }
+  .clients-grid h2.title-top {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .client-card .text {
+    padding: 20px 0;
+  }
+  .exp-card p span {
+    font-size: 17px;
+  }
+  .exp-card,
+  .exp-grid .exp-card:nth-child(2) {
+    margin: 15px;
+  }
+  .exp-top {
+    margin-bottom: 0;
+  }
+  .exp-grid {
+    gap: 0;
   }
 }
