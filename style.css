@@ -308,6 +308,7 @@ body {
   font-family: var(--font-logo);
   font-weight: 900;
   color: var(--beige_light);
+  text-transform: uppercase;
 }
 
 .hero__title b {
@@ -389,7 +390,7 @@ body {
 
 @media (max-width: 1048px) {
   .hero__title {
-    font-size: 21px;
+    font-size: 20px;
     margin-bottom: 0;
   }
   .hero__title span {
@@ -1511,5 +1512,16 @@ footer a {
   }
   .exp-grid {
     gap: 0;
+  }
+  .faq-answer p,
+  .faq-answer ul {
+    font-size: 14px;
+  }
+  .faq-answer ul li {
+    margin-bottom: 10px;
+  }
+  .faq .container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
